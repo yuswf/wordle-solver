@@ -2,8 +2,8 @@ const fs = require('fs');
 const {TR_tr} = require('./utils/Alphabet');
 const {check} = require('./utils/API_Check');
 
-let input = '*am*k';
-let bannedLetters = 'hzyt';
+let input = 'i***l';
+let bannedLetters = '';
 
 function loop(input) {
     let result = [];
